@@ -54,6 +54,24 @@ iframe {
     max-width:600px;
     margin: auto;
 }
+.proj{
+    background-color: black;
+    border-radius: 1rem;
+    padding:1rem;
+}
+
+.proj-ow{
+    background-color: white;
+    border-radius: 1rem;
+    padding:1rem;
+}
+
+.white_font{
+    color:white;
+}
+.black-font{
+    color:black;
+}
 
 /* LINKS */
 
@@ -68,7 +86,7 @@ iframe {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color:black;
-    margin: 1rem;
+    margin: 0.5rem;
     
 }
 .primary-link-home{
@@ -85,8 +103,13 @@ iframe {
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
-    
-    margin: 1rem;
+    text-align:center;
+    margin: 0.5rem;
+}
+
+.center-link{
+    padding:1rem;
+    text-align: center;
 }
 
 /* LISTS*/
@@ -153,6 +176,7 @@ iframe {
 
 .header .color-inverted{
     color: var(--primary-color);
+    font-weight: bold;
 }
 
 
@@ -196,7 +220,7 @@ iframe {
 /* FOOTER */
 .footer{
     background-color: var(--primary-color);
-    padding: 1rem 1rem;
+    padding: 0.5rem 0.5rem;
     text-align: center;
     color: black;
     border-radius: 1rem ;
